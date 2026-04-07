@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+twest/
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+
+# Environment variables
+.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Google credentials (IMPORTANT)
+*.json
+
+# Firebase creds
+config
