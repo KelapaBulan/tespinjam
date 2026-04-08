@@ -91,6 +91,7 @@ FIREBASE_CONFIG = {
   "authDomain": os.getenv("AUTH_DOMAIN"),
 
   "databaseURL": os.getenv("DATABASE_URL"),
+  
   "projectId": os.getenv("PROJECT_ID"),
 
   "storageBucket": os.getenv("STORAGE_BUCKET"),
@@ -144,3 +145,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+print("DB URL:", os.getenv("DATABASE_URL"))
