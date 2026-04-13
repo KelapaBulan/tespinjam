@@ -52,11 +52,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> If there is no `requirements.txt`, install manually:
-> ```bash
-> pip install django pyrebase4 gspread google-auth
-> ```
-
 ### 4. Configure Google Sheets
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
